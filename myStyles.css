@@ -1,0 +1,12 @@
+.bgimage {
+	background-color: blue;
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+}
+
+.menuItems {
+	float: right;
+	width: 500px;
+
+}
