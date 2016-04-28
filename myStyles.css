@@ -1,12 +1,29 @@
-.bgimage {
+/* .bgimage {
 	background-color: blue;
 	background-position: center center;
 	background-size: cover;
 	height: 200px;
-}
+} */
 
 .menuItems {
 	float: right;
 	width: 500px;
 
+}
+
+li a:focus {
+	outline: 0;
+	background-color: yellow;
+	display: block;
+}
+
+.picture {
+	border-radius:50%;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto 20px;
+}
+
+header {
+	text-align: center;
 }
