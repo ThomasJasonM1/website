@@ -7,15 +7,27 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="myStyles.css">
 	
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	
 	 <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	
 	<title>Jason Thomas</title>
+		<!--<style>
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+	}
+	</style>-->
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-	<nav class="navbar navbar-static-top navbar-inverse">
+	<nav class="navbar navbar-fixed-top navbar-inverse">
 		<div class="container">
 			<a class="navbar-brand" href="#page-top">Jason Thomas</a>
 			
@@ -45,87 +57,116 @@
 		<div class="container">
 			<div class="row">
 				<img class="picture" src="images/jason.jpg" title="Jason" alt="Jason">
-				<p>Jason Thomas</p>
+				<p class="name">Jason Thomas</p>
 			</div>
 		</div>
 	</header>
-
-	<div class="about">
-		<h1 id="about">About Me</h1>
-		<p>
-			After gaduating from High School I aspired to be an underwater welder. 
-			My love of talking with people lead me into the world of sales. Now in my 
-			older age (if you are than me I ask you to refrain from shoothing me) 
-			I thought I would learn a bit about programming. </p>
-		<p>
-			My passions are troubleshooting issues, quality time with friends, and 
-			anything outdoors. I love hearing the words, "you were super helpful, thank you!"
-			It makes my day to make others happy and help them with what they need.</p>
-	</div>
 	
-	<div class="skills">
-	<h1 id="skills">Skills</h1>
-	<!--Circle One 1984-->
-	<p>Baby Jason was born!</p>
-	
-	<!--Arrow-->
-	
-	<!--Circle 2003-->
-	<p>Graduated High School</p>
-	
-	<!--Arrow-->
-	
-	<!--Circle 2004-->
-	<p>Completed Commercial Dive School Program</p>
-	
-	<!--Arrow-->
-	
-	<!--Circle 2005-->
-	<p>Repaied boat docks as a Profession Diver</p>
-	
-	<!--Arrow-->
-	
-	<!--Circle 2007-->
-	<p>Started in Sales</p>
-	
-	<!--Arrow-->
-	
-	<!--Circle 2012-->
-	<p>Started working for Call-Em-All</p>
-	
-	<!--Arrow-->
-	
-	<!--Circle 2015-->
-	<p>Started learning how to code</p>
-	</div>
-	
-	<div class="world">
-		<h1 id="world">My World</h1>
-		<div class="serving">
-			<!-- Scrolling through pictures-->
-			<h3>Helping Others</h3> 
-			<p>Helping other people is a huge passon of mine. There 
-			are people both locally and aroud the world that need the
-			help from others for different reasons. One day (crossing my
-			fingers it doesn't happen) it could be me that needs help from others. 
+	<section id="about">
+		<div class="about container">
+			<h1 class="heading">About Me</h1>
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-2">
+					<p>
+						After gaduating from High School I aspired to be an underwater welder. 
+						My love of talking with people lead me into the world of sales. Now in my 
+						older age (if you are than me I ask you to refrain from shoothing me) 
+						I thought I would learn a bit about programming. </p>
+				</div>
+				<div class="col-lg-4">
+					<p>
+						My passions are troubleshooting issues, quality time with friends, and 
+						anything outdoors. I love hearing the words, "you were super helpful, thank you!"
+						It makes my day to make others happy and help them with what they need.</p>
+				</div>
+			</div>
 		</div>
-		<div class="volleyball">
-			<h3>Volleyball</h3>
-			<p>Playing volleyball has helped me learn a lot about
-			life. It as taught me patience, skills take time to develop.
-			Most important, in order to succeed you have to work with 
-			your teammates around you. 
-		</div>
-	</div>
+	</section>
 	
-	<div class="stalk">
+	<section id="skills">
+		<div class="skills container">
+		<h1 class="heading">Skills</h1>
+			<div class="row container">
+				<div class="col-lg-4 col-sm-6">
+					<a href="#skills" data-toggle="tooltip" title="Baby Jason was born!" alt="Baby Jason was born!">
+						<img src="images/1984.jpg"></img>
+					</a>
+				</div>
+			
+			<!--Arrow-->
+			<!--2003-->
+				<div class="col-lg-4 col-sm-6">
+					<a href="#skills" data-toggle="tooltip" title="Graduated High School" alt="Graduated High School">
+						<img src="images/1984.jpg"></img>
+					</a>
+				</div>
+				
+			<!--Arrow-->
+			<!--2004-->
+				<div class="col-lg-4 col-sm-6">
+					<a href="#skills" data-toggle="tooltip" title="Completed Commercial Dive School Program" alt="Completed Commercial Dive School Program">
+						<img src="images/1984.jpg"></img>
+					</a>
+				</div>
+			</div>
+		<!--Arrow-->
+		
+		<!--Circle 2005-->
+		<p>Repaired boat docks as a Profession Diver</p>
+		
+		<!--Arrow-->
+		
+		<!--Circle 2007-->
+		<p>Started in Sales</p>
+		
+		<!--Arrow-->
+		
+		<!--Circle 2012-->
+		<p>Started working for Call-Em-All</p>
+		
+		<!--Arrow-->
+		
+		<!--Circle 2015-->
+		<p>Started learning how to code</p>
+		</div>
+	</section>
+	
+	<section id="world">
+		<div class="world container">
+			<h1 class="heading">My World</h1>
+			<div class="serving">
+				<!-- Scrolling through pictures-->
+				<h3>Helping Others</h3> 
+				<p>Helping other people is a huge passon of mine. There 
+				are people both locally and aroud the world that need the
+				help from others for different reasons. One day (crossing my
+				fingers it doesn't happen) it could be me that needs help from others. 
+			</div>
+			<div class="volleyball">
+				<h3>Volleyball</h3>
+				<p>Playing volleyball has helped me learn a lot about
+				life. It as taught me patience, skills take time to develop.
+				Most important, in order to succeed you have to work with 
+				your teammates around you. 
+			</div>
+		</div>
+	</section>
+	
+	<section id="stalk">
+	<div class="heading container">
 		<h1 id="stalk">Stalk Me</h1>
 		
 		Phone: 505-205-3399
 		Email: ThomasJasonM1@Gmail.com
 	</div> 
+	</section>
 
-
+<script>
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+});
+</script>
+<script>$(document).ready(function(){ $('[data-toggle="tooltip"]').tooltip(); });</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
